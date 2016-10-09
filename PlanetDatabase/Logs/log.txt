@@ -5700,3 +5700,539 @@ WHERE ([Id] = @1)
     [Extent1].[IsDeleted] AS [IsDeleted]
     FROM [dbo].[Planets] AS [Extent1]
     WHERE ([Extent1].[IsDeleted] = @DynamicFilterParam_000001) 
+2016-10-08 00:42:00,934 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: select cast(serverproperty('EngineEdition') as int)
+2016-10-08 00:42:00,954 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: select cast(serverproperty('EngineEdition') as int)
+2016-10-08 00:42:01,026 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: IF db_id(N'PDB') IS NOT NULL SELECT 1 ELSE SELECT Count(*) FROM sys.databases WHERE [name]=N'PDB'
+2016-10-08 00:42:01,292 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: IF db_id(N'PDB') IS NOT NULL SELECT 1 ELSE SELECT Count(*) FROM sys.databases WHERE [name]=N'PDB'
+2016-10-08 00:42:01,295 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: IF db_id(N'PDB') IS NOT NULL SELECT 1 ELSE SELECT Count(*) FROM sys.databases WHERE [name]=N'PDB'
+2016-10-08 00:42:01,296 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: IF db_id(N'PDB') IS NOT NULL SELECT 1 ELSE SELECT Count(*) FROM sys.databases WHERE [name]=N'PDB'
+2016-10-08 00:42:01,402 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2016-10-08 00:42:01,409 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2016-10-08 00:42:01,433 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (1) 
+    [c].[CreatedOn] AS [CreatedOn]
+    FROM [dbo].[__MigrationHistory] AS [c]
+2016-10-08 00:42:01,435 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (1) 
+    [c].[CreatedOn] AS [CreatedOn]
+    FROM [dbo].[__MigrationHistory] AS [c]
+2016-10-08 00:42:01,440 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT 
+    [Extent1].[MigrationId] AS [MigrationId]
+    FROM [dbo].[__MigrationHistory] AS [Extent1]
+    WHERE [Extent1].[ContextKey] = @p__linq__0
+2016-10-08 00:42:01,442 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT 
+    [Extent1].[MigrationId] AS [MigrationId]
+    FROM [dbo].[__MigrationHistory] AS [Extent1]
+    WHERE [Extent1].[ContextKey] = @p__linq__0
+2016-10-08 00:42:01,449 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2016-10-08 00:42:01,451 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2016-10-08 00:42:01,453 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2016-10-08 00:42:01,454 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2016-10-08 00:42:01,476 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)) AND (1 = [Extent1].[Id])
+2016-10-08 00:42:01,481 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) ) AND (1 = [Extent1].[Id])
+2016-10-08 00:42:01,488 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)) AND (2 = [Extent1].[Id])
+2016-10-08 00:42:01,491 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) ) AND (2 = [Extent1].[Id])
+2016-10-08 00:42:01,492 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)) AND (3 = [Extent1].[Id])
+2016-10-08 00:42:01,494 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) ) AND (3 = [Extent1].[Id])
+2016-10-08 00:42:01,496 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)) AND (4 = [Extent1].[Id])
+2016-10-08 00:42:01,497 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) ) AND (4 = [Extent1].[Id])
+2016-10-08 00:42:01,499 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)) AND (5 = [Extent1].[Id])
+2016-10-08 00:42:01,500 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) ) AND (5 = [Extent1].[Id])
+2016-10-08 00:42:01,502 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)) AND (6 = [Extent1].[Id])
+2016-10-08 00:42:01,503 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) ) AND (6 = [Extent1].[Id])
+2016-10-08 00:42:01,504 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)) AND (7 = [Extent1].[Id])
+2016-10-08 00:42:01,506 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) ) AND (7 = [Extent1].[Id])
+2016-10-08 00:42:01,507 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)) AND (8 = [Extent1].[Id])
+2016-10-08 00:42:01,509 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) ) AND (8 = [Extent1].[Id])
+2016-10-08 00:42:01,510 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)) AND (9 = [Extent1].[Id])
+2016-10-08 00:42:01,512 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) ) AND (9 = [Extent1].[Id])
+2016-10-08 00:42:01,523 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,525 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,526 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,527 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,528 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,528 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,529 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,529 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,530 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,530 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,531 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,531 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,532 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,532 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,533 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,533 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,534 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,534 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: False, Command Text: UPDATE [dbo].[Planets]
+SET [UpdatedOn] = @0
+WHERE ([Id] = @1)
+
+2016-10-08 00:42:01,539 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE ([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)
+2016-10-08 00:42:01,553 [10] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE ([Extent1].[IsDeleted] = @DynamicFilterParam_000001) 
+2016-10-08 00:42:01,553 [14] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE ([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)
+2016-10-08 00:42:01,563 [13] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE ([Extent1].[IsDeleted] = @DynamicFilterParam_000001) 
+2016-10-08 00:42:17,364 [13] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE ([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)
+2016-10-08 00:42:17,366 [9] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE ([Extent1].[IsDeleted] = @DynamicFilterParam_000001) 
+2016-10-08 00:42:26,516 [14] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)) AND ([Extent1].[Id] = @p0)
+2016-10-08 00:42:26,519 [13] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) ) AND ([Extent1].[Id] = @p0)
+2016-10-08 00:42:27,664 [10] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE ([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)
+2016-10-08 00:42:27,666 [18] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE ([Extent1].[IsDeleted] = @DynamicFilterParam_000001) 
+2016-10-08 00:42:28,418 [11] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)) AND ([Extent1].[Id] = @p0)
+2016-10-08 00:42:28,422 [18] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) ) AND ([Extent1].[Id] = @p0)
+2016-10-08 00:42:29,667 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)) AND ([Extent1].[Id] = @p0)
+2016-10-08 00:42:29,671 [10] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) ) AND ([Extent1].[Id] = @p0)
+2016-10-08 00:42:50,819 [11] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) OR (@DynamicFilterParam_000002 IS NOT NULL)) AND ([Extent1].[Id] = @p0)
+2016-10-08 00:42:50,822 [6] DEBUG PlanetDatabase.Helpers.LogHelper [(null)] -  IsAsync: True, Command Text: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[KmFromSun] AS [KmFromSun], 
+    [Extent1].[CreatedOn] AS [CreatedOn], 
+    [Extent1].[CreatedBy] AS [CreatedBy], 
+    [Extent1].[UpdatedOn] AS [UpdatedOn], 
+    [Extent1].[UpdatedBy] AS [UpdatedBy], 
+    [Extent1].[IsDeleted] AS [IsDeleted]
+    FROM [dbo].[Planets] AS [Extent1]
+    WHERE (([Extent1].[IsDeleted] = @DynamicFilterParam_000001) ) AND ([Extent1].[Id] = @p0)

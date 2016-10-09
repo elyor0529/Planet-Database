@@ -11,7 +11,7 @@ using log4net.Config;
 
 namespace PlanetDatabase
 {
-    public class WebApiApplication : System.Web.HttpApplication
+    public class WebApiApplication : HttpApplication
     {
         protected void Application_Start()
         {
